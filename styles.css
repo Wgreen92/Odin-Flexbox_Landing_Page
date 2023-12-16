@@ -45,13 +45,82 @@ body {
 
 .content {
   background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
 }
 
 .hero {
-  justify-content: center;
+  display: flex;
+  font-size: 18px;
+  color: #E5E7EB;
+  padding: 50px;
+  align-self: center;
 }
 
+.hero h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.hero button {
+  background-color: #3882f6;
+  border-radius: 5px;
+  color: #F9FAF8;
+  padding: 5px 25px;
+  box-shadow: none;
+
+}
+
+.herotext { flex:1; }
+
+.imgplaceholder {
+  flex:1;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  width: 300px;
+}
+
+/* Cards Styling */
+
 .cards {
+  justify-content: center;
+  background-color: #E5E7EB;
+  text-align: center;
+}
+
+.cardContainer{
+  display:flex;
+  justify-content: center;
+  background-color: #E5E7EB;
+  text-align: center;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+
+.cardsTitle {
+  display: block;
+  font-size: 36px;
+  font-weight:bolder;
+  color: #1F2937;
+  margin-top: 50px; 
+  margin-bottom: 50px;
+}
+
+.card {
+  max-width: 150px;
+}
+
+.card img {
+  border: 5px solid #3882f6;
+  border-radius: 25px;
+  width: 145px;
+  height: 145px;
+  margin-bottom: 8px;
+}
+.card > .text{
+  font-size: 18px;
 
 }
 
@@ -64,5 +133,10 @@ body {
 }
 
 .footer {
-
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  background-color: #1F2937;
+  font-size: 24px;
+  color: #F9FAF8;
 }
