@@ -44,7 +44,8 @@ body {
 /* Hero Styling */
 
 .content {
-  background-color: blueviolet;
+  background-color: #1F2937;
+;
   display: flex;
   flex-direction: column;
 }
@@ -86,14 +87,13 @@ body {
 
 .cards {
   justify-content: center;
-  background-color: #E5E7EB;
+  background-color: #F9FAF8;
   text-align: center;
 }
 
 .cardContainer{
   display:flex;
   justify-content: center;
-  background-color: #E5E7EB;
   text-align: center;
   gap: 50px;
   margin-bottom: 100px;
@@ -124,13 +124,40 @@ body {
 
 }
 
-.quote {
+/* quote Styling */
 
+.quote {
+  display: flex;
+  justify-content: center;
+  background-color: #E5E7EB;
 }
+
+.quoteContainer {
+  width:600px;
+  margin: 100px 0;
+}
+
+.quoteText {
+  align-self: center;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1F2937;
+}
+
+.qAuthor { 
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+/* Call TO Action Styling */
 
 .call-to-action{
 
 }
+
+
+/* Footer Styling */
 
 .footer {
   justify-content: center;
